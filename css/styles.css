@@ -662,8 +662,7 @@ ul {
   padding: 0;
   cursor: pointer;
   background-color: #fff;
-  transition: var(--timing-function) var(--transition-duration);
-  transition-property: background-color, color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-icon {
@@ -671,6 +670,7 @@ ul {
   height: 20px;
   color: #afb1b8;
   fill: currentColor;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-icon-link:hover,
